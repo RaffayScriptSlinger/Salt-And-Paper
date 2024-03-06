@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+    color: white;
+}
+#navbarcontainer{
+    background-color: black;
+    color: white;
+}
+#btnone{
+    border: 2px solid white;
+    margin-right: 6px;
+    border-radius: 25px;
+    padding: 12px;
+   
+}
+#btntwo{
+    border-radius: 25px;
+    padding: 12px;
+    
+}
+#carouselExample{
+    margin-top: none;
+}
+#pageone{
+    background-color: black;
+    color: white;
+   
+}
+.box{
+    height: 150px;
+    width: 250px;
+    border: 2px solid rgb(0, 0, 0);
+    margin-right: 5px;
+    background-color: rgb(255, 255, 255);
+  
+    
+}
+.box:hover{
+    transform: translateY(5px);
+    transition: 0.5s;
+}
+
+#btnthree{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    width: 150px;
+    height: 30px;
+    border-radius: 25px;
+    margin-top: 12px;
+    
+}
+#btnthree:hover{
+   background-color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
+   border: 2px solid black;
+   transition: 0.5s;
+}
+#Ablock{
+    background-color: black;
+    color: white;
+}
+.Redcolor{
+    color: red;
+}
+#express{
+    color: white;
+}
+.card{
+    color: white;
+}
+.expressboxs{
+    height: auto;
+    width: 300px;
+    border: 2px solid white;
+    
+}
+.openingsoon{
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 8px rgb(0, 0, 0);
+}
+.openingsoon:hover{
+    background-color: rgb(121, 121, 121);
+    color: white;
+    transition: 0.8s;
+    box-shadow: 8px 8px 8px rgb(255, 0, 0);
+}
+.socailfeed{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px whitesmoke;
+    transition: 0.8s;
+
+}
+.socailfeed:hover{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 12px rgb(243, 148, 148);
+
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width:500px){
+    .box{
+        width:100%;
+        height: auto;
+    }
+    .expressboxs{
+        width:100%;
+        height: auto;
+    }
+   .openingsoon{
+    width: 100%;
+   }
+}
